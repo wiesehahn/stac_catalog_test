@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "dop20rgbi_32_548_5724_2_ni_2022-03-12",
+  "collection": "ortho_lgln_2022",
+  "properties": {
+    "license": "dl-de/by-2-0",
+    "providers": [
+      {
+        "name": "Landesamt f\u00fcr Geoinformation und Landesvermessung Niedersachsen (LGLN)",
+        "roles": [
+          "producer"
+        ],
+        "url": "https://www.lgln.niedersachsen.de"
+      },
+      {
+        "name": "Landesamt f\u00fcr Geoinformation und Landesvermessung Niedersachsen (LGLN)",
+        "roles": [
+          "licensor"
+        ],
+        "url": "https://www.lgln.niedersachsen.de"
+      }
+    ],
+    "datetime": "2022-03-12T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.694027548068048,
+          51.66493107646889
+        ],
+        [
+          9.694302443946022,
+          51.68291267511416
+        ],
+        [
+          9.723229278322561,
+          51.68273814444841
+        ],
+        [
+          9.722942931796556,
+          51.66475665764057
+        ],
+        [
+          9.694027548068048,
+          51.66493107646889
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Orthos Niedersachsen"
+    },
+    {
+      "rel": "self",
+      "href": "https://dop-stac.opengeodata.lgln.niedersachsen.de/dop20rgbi_32_548_5724_2_ni_2022-03-12/dop20rgbi_32_548_5724_2_ni_2022-03-12.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "rgbi": {
+      "href": "https://dop20-rgbi.opengeodata.lgln.niedersachsen.de/325485724/2022-03-12/dop20rgbi_32_548_5724_2_ni_2022-03-12.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "rgbi_metadata": {
+      "href": "https://dop20-rgbi.opengeodata.lgln.niedersachsen.de/325485724/2022-03-12/dop20rgbi_32_548_5724_2_ni_2022-03-12.xml",
+      "type": "application/xml"
+    },
+    "rgb": {
+      "href": "https://dop20-rgb.opengeodata.lgln.niedersachsen.de/325485724/2022-03-12/dop20rgb_32_548_5724_2_ni_2022-03-12.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    },
+    "rgb_metadata": {
+      "href": "https://dop20-rgb.opengeodata.lgln.niedersachsen.de/325485724/2022-03-12/dop20rgb_32_548_5724_2_ni_2022-03-12.xml",
+      "type": "application/xml"
+    }
+  },
+  "bbox": [
+    9.694027548068048,
+    51.66493107646889,
+    9.723229278322561,
+    51.68273814444841
+  ],
+  "stac_extensions": []
+}

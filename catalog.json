@@ -1,0 +1,31 @@
+{
+  "id": "nw-fva",
+  "type": "Catalog",
+  "title": "Geodatenkatalog der NW-FVA (Beispiel)",
+  "stac_version": "1.0.0",
+  "description": "Beispielkatalog als Anschauungsobjekt für eine Mögliche Katalogisierung von Geodaten im SG-B4, bzw. an der NW-FVA. STAC ermöglicht eine standardisierten Datenkatalogierung, bessere Interoperabilität, die Nutzung vieler bestehender Tools etc.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ortho/collection.json",
+      "type": "application/json",
+      "title": "Orthophotos"
+    },
+    {
+      "rel": "child",
+      "href": "./lidar/collection.json",
+      "type": "application/json",
+      "title": "Lidar-Daten"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

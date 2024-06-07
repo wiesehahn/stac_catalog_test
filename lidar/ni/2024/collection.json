@@ -1,0 +1,108 @@
+{
+  "id": "lidar_ni_2024",
+  "type": "Collection",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "description": "A simple sample collection testing capabilities using data from ALS data collection in Solling 2024",
+  "title": "Lidar Daten Solling 2024",
+  "keywords": [
+    "ALS",
+    "Lidar",
+    "Niedersachsen",
+    "Solling",
+    "NLF",
+    "NFP"
+  ],
+  "providers": [
+    {
+      "name": "GeoFly",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://web.geofly.eu/"
+    },
+    {
+      "name": "Niedersächsisches Forstplanungsamt",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://www.landesforsten.de"
+    },
+    {
+      "name": "NW-FVA",
+      "roles": [
+        "host",
+        "licensor",
+        "processor"
+      ],
+      "url": "https://www.nw-fva.de/"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.694164960,
+          51.664931076,
+          9.721993355,
+          51.673835527
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-27T08:00:00.000Z",
+          "2024-03-27T11:00:00.000Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "platform": [
+      "Airplane"
+    ],
+    "instruments": [
+      "RIEGL VQ-780i"
+    ],
+    "proj:epsg": [
+      25832
+    ],
+    "pc:type": [
+      "lidar"
+    ],
+    "pc:density": [
+      30
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Niedersachsen"
+    },
+    {
+      "rel": "child",
+      "href": "./pointcloud/solling_2024.json",
+      "type": "application/json",
+      "title": "Lidar Punktwolke Solling 2024"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

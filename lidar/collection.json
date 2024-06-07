@@ -1,0 +1,63 @@
+{
+  "id": "lidar",
+  "type": "Collection",
+  "title": "Lidar-Daten",
+  "stac_version": "1.0.0",
+  "description": "Beim Airborne Laserscanning (ALS) wird die Erdoberfläche von einem Flugzeug aus mit Laserstrahlen abgetastet. Anhand der Signallaufzeiten der vom Flugzeug aus entsandten und an der Erdoberfläche wieder zurückreflektierten Laserstrahlen sowie der Position und Lage des Flugzeuges lassen sich Höhenpunkte bestimmen, die den Oberflächenverlauf beschreiben.",
+  "keywords": [
+    "ALS",
+    "Lidar",
+    "Flugzeug"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6,
+          49,
+          13,
+          55
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "child",
+      "href": "./ni/collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Niedersachsen"
+    },
+    {
+      "rel": "child",
+      "href": "./he/collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Hessen"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

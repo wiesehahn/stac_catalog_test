@@ -1,0 +1,51 @@
+{
+  "id": "ortho_he",
+  "type": "Collection",
+  "title": "Orthophotos Hessen",
+  "stac_version": "1.0.0",
+  "description": "Digitale Orthophotos (DOP) Hessen",
+  "keywords": [
+    "Orthos",
+    "Luftbilder",
+    "Flugzeug",
+    "Hessen"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          7.7731704009,
+          49.3948229196,
+          10.2340156149,
+          51.6540496066
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2008-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Orthophotos"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

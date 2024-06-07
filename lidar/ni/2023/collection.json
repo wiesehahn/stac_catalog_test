@@ -1,0 +1,118 @@
+{
+  "id": "lidar_ni_2023",
+  "type": "Collection",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "description": "A simple sample collection testing capabilities using data from ALS data collection in Solling 2023",
+  "title": "Lidar Daten Solling 2023",
+  "keywords": [
+    "ALS",
+    "Lidar",
+    "Niedersachsen",
+    "Solling",
+    "NLF",
+    "NFP"
+  ],
+  "providers": [
+    {
+      "name": "BSF Swissphoto",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://de.bsf-swissphoto.com/"
+    },
+    {
+      "name": "Niedersächsisches Forstplanungsamt",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://www.landesforsten.de"
+    },
+    {
+      "name": "NW-FVA",
+      "roles": [
+        "host",
+        "licensor",
+        "processor"
+      ],
+      "url": "https://www.nw-fva.de/"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.694164960,
+          51.664931076,
+          9.721993355,
+          51.673835527
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-04T08:20:00.000Z",
+          "2023-09-05T12:09:00.000Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "platform": [
+      "Airplane"
+    ],
+    "instruments": [
+      "RIEGL VQ-780 II-S"
+    ],
+    "proj:epsg": [
+      25832
+    ],
+    "pc:type": [
+      "lidar"
+    ],
+    "pc:density": [
+      25
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Niedersachsen"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/2023_06_solling_32_548_5724.json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/2023_06_solling_32_548_5725.json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/2023_06_solling_32_549_5724.json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/2023_06_solling_32_549_5725.json"
+    }
+  ]
+}

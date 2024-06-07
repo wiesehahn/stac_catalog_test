@@ -1,0 +1,88 @@
+{
+  "id": "ortho_lgln_2022",
+  "type": "Collection",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "description": "Orthophotos der Landesbefliegung des LGLN",
+  "title": "Orthos LGLN 2022",
+  "keywords": [
+    "Orthos",
+    "Luftbilder",
+    "Flugzeug",
+    "Niedersachsen",
+    "LGLN",
+    "Landesbefliegung"
+  ],
+  "providers": [
+    {
+      "name": "Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN)",
+      "roles": [
+        "producer",
+        "licensor",
+        "host"
+      ],
+      "url": "https://www.lgln.niedersachsen.de"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6545841239,
+          51.2954150799,
+          11.59769814,
+          53.8941514415
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-12T00:00:00.000Z",
+          "2022-03-12T00:00:00.000Z"
+        ]
+      ]
+    }
+  },
+  "license": "dl-de/by-2-0",
+  "summaries": {
+    "platform": [
+      "Airplane"
+    ],
+    "instruments": [
+      "?"
+    ],
+    "gsd": [
+      20
+    ],
+    "proj:epsg": [
+      25832
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Orthos Niedersachsen"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./dop20rgbi_32_548_5724_2_ni_2022-03-12.json"
+    }
+  ]
+}

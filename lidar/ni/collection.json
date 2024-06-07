@@ -1,0 +1,62 @@
+{
+  "id": "lidar_ni",
+  "type": "Collection",
+  "title": "Lidar Daten Niedersachsen",
+  "stac_version": "1.0.0",
+  "description": "ALS Daten in Niedersachsen",
+  "keywords": [
+    "ALS",
+    "Lidar",
+    "Niedersachsen"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6545841239,
+          51.2954150799,
+          11.59769814,
+          53.8941514415
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten"
+    },
+    {
+      "rel": "child",
+      "href": "./2023/collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Solling 2023"
+    },
+    {
+      "rel": "child",
+      "href": "./2024/collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Solling 2024"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

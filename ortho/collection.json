@@ -1,0 +1,63 @@
+{
+  "id": "ortho",
+  "type": "Collection",
+  "title": "Orthophotos",
+  "stac_version": "1.0.0",
+  "description": "Digitale Orthophotos (DOP) sind verzerrungsfreie und georeferenzierte Luftbilder. Sie sind maßstabstreu und können so direkt mit Karten oder Fachdaten kombiniert werden. Die Vermessungsverwaltungen der Bundesländer erzeugen DOP mit einer Bodenauflösung von 20 cm. Die NW-FVA lässt desweiteren eigene Befliegungen durchführen.",
+  "keywords": [
+    "Orthos",
+    "Luftbilder",
+    "Flugzeug"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.6,
+          49,
+          13,
+          55
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2006-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "child",
+      "href": "./ni/collection.json",
+      "type": "application/json",
+      "title": "Orthos Niedersachsen"
+    },
+    {
+      "rel": "child",
+      "href": "./he/collection.json",
+      "type": "application/json",
+      "title": "Orthos Hessen"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/collection.json",
+      "type": "application/json"
+    }
+  ]
+}
