@@ -83,6 +83,8 @@
   "assets": {
     "VPC": {
       "href": "./lidar_ni_2023.vpc",
+      "title": "VPC- Lidar Daten Solling 2023",
+      "description": "Virtual Point Cloud (VPC) Dateien sind einfachen Textdateien welche Links und Informationen zu den einzelnen Punktwolken-Kacheln enthalten. Mit ihnen lässt sich beispielsweise in QGIS, PDAL oder lasR arbeiten.",
       "roles": [
         "vpc"
       ],

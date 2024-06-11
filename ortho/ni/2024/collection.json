@@ -99,6 +99,8 @@
   "assets": {
     "VRT": {
       "href": "./ortho_ni_2024.vrt",
+      "title": "VRT - Orthophotos Niedersachsen 2024",
+      "description": "VRT Dateien sind einfache Textdateien, welche Links zu den eigentlichen Daten (Raster-Kacheln) enthalten. Mit ihnen lässt sich beispielsweise in QGIS arbeiten.",
       "roles": [
         "vrt"
       ],
