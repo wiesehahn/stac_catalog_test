@@ -80,6 +80,15 @@
       25
     ]
   },
+  "assets": {
+    "VPC": {
+      "href": "./lidar_ni_2023.vpc",
+      "roles": [
+        "vpc"
+      ],
+      "type": "application/json"
+    }
+  },
   "links": [
     {
       "rel": "root",

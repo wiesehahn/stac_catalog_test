@@ -96,6 +96,15 @@
       25832
     ]
   },
+  "assets": {
+    "VRT": {
+      "href": "./ortho_ni_2024.vrt",
+      "roles": [
+        "vrt"
+      ],
+      "type": "application/xml"
+    }
+  },
   "links": [
     {
       "rel": "root",
