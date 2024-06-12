@@ -3,7 +3,8 @@
     "type": "Collection",
     "stac_extensions": [
         "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-        "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
     ],
     "stac_version": "1.0.0",
     "description": "Dieser Katalog verweist zu den Orthophotos auf der Cloud Infrastruktur des LGLN. Er ist daher so aktuell wie möglich und kann Daten enthalten welche noch nicht lokal vorliegen. In regelmäßigen Abständen werden die Bilddaten auf die Server der NW-FVA gespiegelt, diese lokalen Dateien können über die anderen Kataloge erreicht werden.",
@@ -43,11 +44,31 @@
             "interval": [
                 [
                     "2012-03-15T00:00:00Z",
-                    "2023-09-07T00:00:00Z"
+                    null
                 ]
             ]
         }
     },
+    "conformsTo": [
+        "http://www.opengis.net/spec/cql2/1.0/conf/basic-cql2",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson",
+        "https://api.stacspec.org/v1.0.0/item-search#query",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#context",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-json",
+        "https://api.stacspec.org/v1.0.0-rc.3/ogcapi-features/extensions/transaction",
+        "https://api.stacspec.org/v1.0.0/item-search#sort",
+        "https://api.stacspec.org/v1.0.0/collections",
+        "https://api.stacspec.org/v1.0.0/item-search#fields",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+        "https://api.stacspec.org/v1.0.0/core",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-text",
+        "https://api.stacspec.org/v1.0.0/item-search",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#filter",
+        "https://api.stacspec.org/v1.0.0/ogcapi-features"
+    ],
     "links": [
         {
             "rel": "root",
@@ -70,6 +91,48 @@
             "href": "https://dop.stac.lgln.niedersachsen.de/collections/DOP",
             "rel": "self",
             "type": "application/json"
+        },
+        
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/collections",
+            "rel": "data",
+            "type": "application/json"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/conformance",
+            "rel": "conformance",
+            "type": "application/json",
+            "title": "STAC/OGC conformance classes implemented by this server"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/search",
+            "rel": "search",
+            "type": "application/geo+json",
+            "title": "STAC search"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/search",
+            "rel": "search",
+            "type": "application/geo+json",
+            "title": "STAC search"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/queryables",
+            "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+            "type": "application/schema+json",
+            "title": "Queryables"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/api",
+            "rel": "service-desc",
+            "type": "application/vnd.oai.openapi+json;version=3.0",
+            "title": "OpenAPI service description"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/api.html",
+            "rel": "service-doc",
+            "type": "text/html",
+            "title": "OpenAPI service documentation"
         }
     ]
 }
