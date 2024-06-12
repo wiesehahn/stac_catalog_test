@@ -43,6 +43,11 @@
       "title": "Orthophotos"
     },
     {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "child",
       "href": "./2022/collection.json",
       "type": "application/json",
@@ -55,9 +60,10 @@
       "title": "Orthos Solling 2024"
     },
     {
-      "rel": "self",
-      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
-      "type": "application/json"
+      "rel": "child",
+      "href": "./lgln/collection.json",
+      "type": "application/json",
+      "title": "Orthos LGLN"
     }
   ]
 }
