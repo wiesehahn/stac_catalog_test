@@ -6,7 +6,7 @@
         "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
     ],
     "stac_version": "1.0.0",
-    "description": "Orthophotos der Landesbefliegung des LGLN",
+    "description": "Dieser Katalog verweist zu den Orthophotos auf der Cloud Infrastruktur des LGLN. Er ist daher so aktuell wie möglich und kann Daten enthalten welche noch nicht lokal vorliegen. In regelmäßigen Abständen werden die Bilddaten auf die Server der NW-FVA gespiegelt, diese lokalen Dateien können über die anderen Kataloge erreicht werden.",
     "title": "Orthos LGLN",
     "license": "CC-BY-4.0",
     "keywords": [
