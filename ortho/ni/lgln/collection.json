@@ -94,11 +94,6 @@
         },
         
         {
-            "href": "https://dop.stac.lgln.niedersachsen.de/collections",
-            "rel": "data",
-            "type": "application/json"
-        },
-        {
             "href": "https://dop.stac.lgln.niedersachsen.de/conformance",
             "rel": "conformance",
             "type": "application/json",
