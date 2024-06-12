@@ -113,6 +113,10 @@
       "rel": "self",
       "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./dop20rgbi_32_548_5724_2_ni_2022-03-12.json"
     }
   ]
 }
