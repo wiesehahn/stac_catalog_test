@@ -66,10 +66,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -161,10 +157,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -258,10 +250,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -353,10 +341,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -450,10 +434,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -545,10 +525,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -642,10 +618,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -737,10 +709,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -834,10 +802,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -929,10 +893,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1026,10 +986,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -1121,10 +1077,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1218,10 +1170,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -1313,10 +1261,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1410,10 +1354,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -1505,10 +1445,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1602,10 +1538,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -1697,10 +1629,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1794,10 +1722,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -1889,10 +1813,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -1986,10 +1906,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -2081,10 +1997,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -2178,10 +2090,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -2273,10 +2181,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -2370,10 +2274,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -2465,10 +2365,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -2562,10 +2458,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -2657,10 +2549,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -2754,10 +2642,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -2849,10 +2733,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
@@ -2946,10 +2826,6 @@
       },
       "links": [
         {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
-        {
           "rel": "root",
           "href": "../../../../catalog.json",
           "type": "application/json",
@@ -3041,10 +2917,6 @@
         "index:indexed": true
       },
       "links": [
-        {
-          "rel": "self",
-          "href": "https://example.com/stac/item/item-1.json"
-        },
         {
           "rel": "root",
           "href": "../../../../catalog.json",
