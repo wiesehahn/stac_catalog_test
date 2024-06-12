@@ -82,6 +82,11 @@
           "href": "../collection.json",
           "type": "application/json",
           "title": "Lidar Daten Solling 2024"
+        },
+        {
+            "href": "https://dop.stac.lgln.niedersachsen.de/collections/DOP/items/dop20rgbi_32_476_5974_2_ni_2023-09-07",
+            "rel": "self",
+            "type": "application/geo+json"
         }
       ],
       "assets": {
