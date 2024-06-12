@@ -45,6 +45,11 @@
       "rel": "self",
       "href": "https://raw.githubusercontent.com/user/path/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "icon",
+      "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Coat_of_arms_of_Hesse.svg/398px-Coat_of_arms_of_Hesse.svg.png",
+      "type": "image/png"
     }
   ]
 }

@@ -42,6 +42,16 @@
       "title": "Lidar Daten"
     },
     {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.niedersachsen.de/assets/image/736/17813",
+      "type": "image/gif"
+    },
+    {
       "rel": "child",
       "href": "./2023/collection.json",
       "type": "application/json",
@@ -52,11 +62,6 @@
       "href": "./2024/collection.json",
       "type": "application/json",
       "title": "Lidar Daten Solling 2024"
-    },
-    {
-      "rel": "self",
-      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
-      "type": "application/json"
     }
   ]
 }

@@ -96,6 +96,17 @@
       25832
     ]
   },
+  "assets": {
+    "vrt": {
+      "href": "./ortho_ni_2024.vrt",
+      "title": "VRT File",
+      "description": "VRT Dateien sind einfache Textdateien, welche Links zu den eigentlichen Daten (Raster-Kacheln) enthalten. Mit ihnen lässt sich beispielsweise in QGIS arbeiten.",
+      "roles": [
+        "vrt"
+      ],
+      "type": "application/xml"
+    }
+  },
   "links": [
     {
       "rel": "root",
