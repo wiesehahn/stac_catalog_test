@@ -94,9 +94,9 @@
       "title": "Lidar Daten Niedersachsen"
     },
     {
-      "rel": "child",
+      "rel": "items",
       "href": "./pointcloud/solling_2024.json",
-      "type": "application/json",
+      "type": "application/geo+json",
       "title": "Lidar Punktwolke Solling 2024"
     },
     {

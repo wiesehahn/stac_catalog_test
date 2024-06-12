@@ -106,12 +106,6 @@
             "title": "STAC search"
         },
         {
-            "href": "https://dop.stac.lgln.niedersachsen.de/search",
-            "rel": "search",
-            "type": "application/geo+json",
-            "title": "STAC search"
-        },
-        {
             "href": "https://dop.stac.lgln.niedersachsen.de/queryables",
             "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
             "type": "application/schema+json",
