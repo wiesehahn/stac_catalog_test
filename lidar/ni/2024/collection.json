@@ -1,23 +1,23 @@
 {
-  "id": [
+  "id": 
     "lidar_ni_2024"
-  ],
-  "type": [
+    ,
+  "type": 
     "Collection"
-  ],
+  ,
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
     "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
   ],
-  "stac_version": [
+  "stac_version": 
     "1.0.0"
-  ],
-  "description": [
+  ,
+  "description": 
     "A simple sample collection testing capabilities using data from ALS data collection in Solling 2024"
-  ],
-  "title": [
+  ,
+  "title": 
     "Lidar Daten Solling 2024"
-  ],
+  ,
   "keywords": [
     "ALS",
     "Lidar",
@@ -72,9 +72,9 @@
       ]
     }
   },
-  "license": [
+  "license": 
     "proprietary"
-  ],
+  ,
   "summaries": {
     "platform": [
       "Airplane"
