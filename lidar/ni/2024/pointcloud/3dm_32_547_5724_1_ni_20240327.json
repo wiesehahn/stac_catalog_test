@@ -1,92 +1,94 @@
-[
-  {
-    "type": "Feature",
-    "stac_version": "1.0.0",
-    "stac_extensions": [
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
       "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
       "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
-    ],
-    "id": "3dm_32_547_5724_1_ni_20240327",
-    "geometry": {
+  ],
+  "id": "2023_06_solling_32_548_5724",
+  "geometry": {
       "coordinates": [
-        [
           [
-            9.689545623,
-            51.664957474,
-            222.348
-          ],
-          [
-            9.694027534,
-            51.664931077,
-            222.348
-          ],
-          [
-            9.694164946,
-            51.673921874,
-            337.124
-          ],
-          [
-            9.689682148,
-            51.67394828,
-            337.124
-          ],
-          [
-            9.689545623,
-            51.664957474,
-            222.348
+              [
+                  9.694027548,
+                  51.664931076,
+                  224.306
+              ],
+              [
+                  9.708485262,
+                  51.664844757,
+                  224.306
+              ],
+              [
+                  9.708625536,
+                  51.673835527,
+                  400.714
+              ],
+              [
+                  9.694164960,
+                  51.673921874,
+                  400.714
+              ],
+              [
+                  9.694027548,
+                  51.664931076,
+                  224.306
+              ]
           ]
-        ]
       ],
       "type": "Polygon"
-    },
-    "bbox": [
-      9.689545623,
-      51.664931077,
-      222.348,
+  },
+  "bbox": [
+      9.694027548,
+      51.664844757,
+      224.306,
+      51.673835527,
       51.673921874,
-      51.67394828,
-      337.124
-    ],
-    "properties": {
-      "datetime": "2024-05-02T01:00:00Z",
-      "pc:count": 10913621,
+      400.714
+  ],
+  "properties": {
+      "datetime": "2023-09-04T01:00:00Z",
+      "pc:count": 47614912,
       "pc:type": "lidar",
       "proj:bbox": [
-        547689.999,
-        5724000.0,
-        547999.999,
-        5724999.999
+          548000.000,
+          5724000.000,
+          548999.999,
+          5724999.999
       ],
       "proj:wkt2": "PROJCRS[\"ETRS89 / UTM zone 32N\",BASEGEOGCRS[\"ETRS89\",ENSEMBLE[\"European Terrestrial Reference System 1989 ensemble\",MEMBER[\"European Terrestrial Reference Frame 1989\"],MEMBER[\"European Terrestrial Reference Frame 1990\"],MEMBER[\"European Terrestrial Reference Frame 1991\"],MEMBER[\"European Terrestrial Reference Frame 1992\"],MEMBER[\"European Terrestrial Reference Frame 1993\"],MEMBER[\"European Terrestrial Reference Frame 1994\"],MEMBER[\"European Terrestrial Reference Frame 1996\"],MEMBER[\"European Terrestrial Reference Frame 1997\"],MEMBER[\"European Terrestrial Reference Frame 2000\"],MEMBER[\"European Terrestrial Reference Frame 2005\"],MEMBER[\"European Terrestrial Reference Frame 2014\"],ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[0.1]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4258]],CONVERSION[\"UTM zone 32N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",9,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"Europe between 6°E and 12°E: Austria; Belgium; Denmark - onshore and offshore; Germany - onshore and offshore; Norway including - onshore and offshore; Spain - offshore.\"],BBOX[38.76,6,84.33,12.01]],ID[\"EPSG\",25832]]",
       "proj:epsg": 25832,
       "index:indexed": true
-    },
-    "links": [
+  },
+  "collection": "lidar_ni_2023",
+  "links": [
       {
-        "rel": "collection",
-        "href": "../collection.json",
-        "type": "application/json",
-        "title": "Lidar Daten Solling 2024"
+          "rel": "collection",
+          "href": "../collection.json",
+          "type": "application/json",
+          "title": "Lidar Daten Solling 2023"
       },
       {
-        "rel": "root",
-        "href": "../../../../catalog.json",
-        "type": "application/json",
-        "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+          "rel": "root",
+          "href": "../../../../catalog.json",
+          "type": "application/json",
+          "title": "Geodatenkatalog der NW-FVA (Beispiel)"
       },
       {
-        "rel": "parent",
-        "href": "../collection.json",
-        "type": "application/json",
-        "title": "Lidar Daten Solling 2024"
+          "rel": "parent",
+          "href": "../collection.json",
+          "type": "application/json",
+          "title": "Lidar Daten Solling 2023"
       }
-    ],
-    "assets": {
+  ],
+  "assets": {
       "pointcloud": {
-        "href": "L:/luftbilder/aktuell/2024/Solling_20240327/Laserscan/klassifizierte_Laserdaten/3dm_32_547_5724_1_ni_20240327.laz",
-        "roles": "data"
+          "href": "L:/luftbilder/ni/digitalbefliegungen/befliegungen_2023/solling_nlf/03_laz_ground_noise/2023_06_solling_32_548_5724.laz",
+          "roles": [
+              "data"
+          ],
+          "created": "2024-10-16T01:00:00Z",
+          "type": "application/vnd.las"
       }
-    },
-    "collection": "lidar_ni_2024"
   }
-]
+}
