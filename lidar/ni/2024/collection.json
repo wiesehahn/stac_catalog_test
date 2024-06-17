@@ -99,13 +99,19 @@
     },
     {
       "rel": "item",
-      "href": "../2023/pointcloud/2023_06_solling_32_548_5724.json",
-      "type": null,
-      "title": null
+      "href": "./pointcloud/0_aslist_3dm_32_547_5723_1_ni_20240327.json"
     },
     {
       "rel": "item",
-      "href": "../2023/pointcloud/2023_06_solling_32_548_5724.json"
+      "href": "./pointcloud/0_df_3dm_32_547_5723_1_ni_20240327.json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/0_list1_3dm_32_547_5723_1_ni_20240327.json"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/0_list_3dm_32_547_5723_1_ni_20240327.json"
     }
   ]
 }
