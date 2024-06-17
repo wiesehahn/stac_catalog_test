@@ -83,7 +83,7 @@
     ],
     "assets": {
         "pointcloud": {
-            "href": "L:/luftbilder/ni/digitalbefliegungen/befliegungen_2023/solling_nlf/03_laz_ground_noise/2023_06_solling_32_548_5724.laz",
+            "href": "file://L:/luftbilder/ni/digitalbefliegungen/befliegungen_2023/solling_nlf/03_laz_ground_noise/2023_06_solling_32_548_5724.laz",
             "roles": [
                 "data"
             ],
@@ -91,14 +91,14 @@
             "type": "application/vnd.las"
         },
         "imean": {
-            "href": "Y:/Jens/lidar_solling/data/processed/2023/2023_06_solling_32_549_5725_imean.tif",
+            "href": "file://Y:/Jens/lidar_solling/data/processed/2023/2023_06_solling_32_549_5725_imean.tif",
             "roles": [
                 "data"
             ],
             "type": "image/tiff; application=geotiff; profile=cloud-optimized"
         },
         "chm": {
-            "href": "Y:/Jens/lidar_solling/data/processed/2023/2023_06_solling_32_549_5725_chm.tif",
+            "href": "file://Y:/Jens/lidar_solling/data/processed/2023/2023_06_solling_32_549_5725_chm.tif",
             "roles": [
                 "data"
             ],
