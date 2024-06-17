@@ -1,0 +1,128 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "547000_5723000",
+    "collection": "ortho_ni_2024",
+    "properties": {
+        "datetime": "2024-03-27T00:00:00Z",
+        "raster:bands": [
+            {
+                "data_type": "uint8",
+                "stats": {
+                    "minimum": 27.0,
+                    "maximum": 255.0,
+                    "mean": 210.168,
+                    "stddev": 60.995
+                }
+            },
+            {
+                "data_type": "uint8",
+                "stats": {
+                    "minimum": 24.0,
+                    "maximum": 255.0,
+                    "mean": 209.25,
+                    "stddev": 61.877
+                }
+            },
+            {
+                "data_type": "uint8",
+                "stats": {
+                    "minimum": 3.0,
+                    "maximum": 255.0,
+                    "mean": 204.252,
+                    "stddev": 67.45
+                }
+            },
+            {
+                "data_type": "uint8",
+                "stats": {
+                    "minimum": 46.0,
+                    "maximum": 255.0,
+                    "mean": 232.733,
+                    "stddev": 33.805
+                }
+            }
+        ],
+        "eo:bands": [
+            {
+                "name": "b1",
+                "description": "Red"
+            },
+            {
+                "name": "b2",
+                "description": "Green"
+            },
+            {
+                "name": "b3",
+                "description": "Blue"
+            },
+            {
+                "name": "b4",
+                "description": "NIR"
+            }
+        ],
+        "proj:shape": [
+            20000,
+            20000
+        ]
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    9.694027548068048,
+                    51.66493107646889
+                ],
+                [
+                    9.694302443946022,
+                    51.68291267511416
+                ],
+                [
+                    9.723229278322561,
+                    51.68273814444841
+                ],
+                [
+                    9.722942931796556,
+                    51.66475665764057
+                ],
+                [
+                    9.694027548068048,
+                    51.66493107646889
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../catalog.json",
+            "type": "application/json",
+            "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json",
+            "title": "Orthos Niedersachsen"
+        },
+        {
+            "rel": "self",
+            "href": "https://bla",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "rgbi": {
+            "href": "L:\\luftbilder\\aktuell\\2024\\Solling_20240327\\Bildflug\\Orthophotomosaik\\547000_5723000.tif",
+            "type": "image/tiff; application=geotiff"
+        }
+    },
+    "bbox": [
+        9.694027548068048,
+        51.66493107646889,
+        9.723229278322561,
+        51.68273814444841
+    ],
+    "stac_extensions": []
+}
