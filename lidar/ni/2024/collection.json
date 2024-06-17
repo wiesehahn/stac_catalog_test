@@ -99,15 +99,13 @@
     },
     {
       "rel": "item",
-      "href": "./pointcloud/3dm_32_547_5725_1_ni_20240327.json",
+      "href": "../2023/pointcloud/2023_06_solling_32_548_5724.json",
       "type": null,
       "title": null
     },
     {
       "rel": "item",
-      "href": "./pointcloud/3dm_32_547_5726_1_ni_20240327.json",
-      "type": null,
-      "title": null
+      "href": "../2023/pointcloud/2023_06_solling_32_548_5724.json"
     },
     {
       "rel": "item",
