@@ -83,7 +83,7 @@
     ],
     "assets": {
       "pointcloud": {
-        "href": "L:/luftbilder/aktuell/2024/Solling_20240327/Laserscan/klassifizierte_Laserdaten/3dm_32_548_5728_1_ni_20240327.laz",
+        "href": "file//L:/luftbilder/aktuell/2024/Solling_20240327/Laserscan/klassifizierte_Laserdaten/3dm_32_548_5728_1_ni_20240327.laz",
         "roles": "data"
       }
     },
