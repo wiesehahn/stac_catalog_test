@@ -88,7 +88,8 @@
                 "data"
             ],
             "created": "2023-10-16T01:00:00Z",
-            "type": "application/vnd.las"
+            "type": "application/vnd.laz",
+            "description": "Klassifizierte Punktwolke" 
         },
         "imean": {
             "href": "file://Y:/Jens/lidar_solling/data/processed/2023/2023_06_solling_32_549_5725_imean.tif",
