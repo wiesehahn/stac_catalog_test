@@ -1,5 +1,4 @@
-[
-  {
+{
     "type": "Feature",
     "stac_version": "1.0.0",
     "stac_extensions": [
@@ -89,4 +88,3 @@
     },
     "collection": "lidar_ni_2024"
   }
-]
