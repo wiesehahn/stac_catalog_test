@@ -1,0 +1,109 @@
+{
+  "id": "elbaue_lfb_2023",
+  "type": "Collection",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "description": "Orthophotos entlang der Elbaue zur Dokumentation von Schäden an Laubbäumen",
+  "title": "Orthos Elbaue 2023",
+  "keywords": [
+    "Orthos",
+    "Luftbilder",
+    "Flugzeug",
+    "Sachsen-Anhalt",
+    "LFB",
+    "Elbaue"
+  ],
+  "providers": [
+    {
+      "name": "GeoFly",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://web.geofly.eu/"
+    },
+    {
+      "name": "Landesforstbetrieb Sachsen-Anhalt",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://www.landesforstbetrieb.de/"
+    },
+    {
+      "name": "NW-FVA",
+      "roles": [
+        "host",
+        "licensor",
+        "processor"
+      ],
+      "url": "https://www.nw-fva.de/"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.56282,
+          51.97336,
+          11.90371,
+          52.30410
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-07-09T00:00:00.000Z",
+          "2023-08-19T00:00:00.000Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "platform": [
+      "Airplane"
+    ],
+    "instruments": [
+      "?"
+    ],
+    "gsd": [
+      20
+    ],
+    "proj:epsg": [
+      25832
+    ],
+    "overlap_forward": [
+      80
+    ],
+    "overlap_sideward": [
+      37
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Orthos Sachsen-Anhalt"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./dop20rgbi_32_548_5724_2_ni_2022-03-12.json"
+    }
+  ]
+}

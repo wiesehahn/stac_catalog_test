@@ -1,0 +1,57 @@
+{
+  "id": "ortho_st",
+  "type": "Collection",
+  "title": "Orthos Sachsen-Anhalt",
+  "stac_version": "1.0.0",
+  "description": "Digitale Orthophotos (DOP) Sachsen-Anhalt",
+  "keywords": [
+    "Orthos",
+    "Luftbilder",
+    "Flugzeug",
+    "Sachsen-Anhalt"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          53.0421316033,
+          10.5614755400,
+          50.9379979829,
+          13.1865600846
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-07-09T00:00:00Z",
+          "2023-08-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Orthophotos"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./2023/elbaue/collection.json",
+      "type": "application/json",
+      "title": "Orthos Elbaue 2023"
+    }
+  ]
+}

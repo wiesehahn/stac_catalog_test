@@ -55,6 +55,12 @@
       "title": "Orthos Hessen"
     },
     {
+      "rel": "child",
+      "href": "./st/collection.json",
+      "type": "application/json",
+      "title": "Orthos Sachsen-Anhalt"
+    },
+    {
       "rel": "self",
       "href": "https://raw.githubusercontent.com/user/path/collection.json",
       "type": "application/json"

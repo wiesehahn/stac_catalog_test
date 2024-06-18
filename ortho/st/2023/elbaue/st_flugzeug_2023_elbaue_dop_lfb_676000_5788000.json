@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "st_flugzeug_2023_elbaue_dop_lfb_676000_5788000",
+  "collection": "elbaue_lfb_2023",
+  "properties": {
+    "license": "proprietary",
+    "providers": [
+      {
+        "name": "GeoFly",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://web.geofly.eu/"
+      },
+      {
+        "name": "Landesforstbetrieb Sachsen-Anhalt",
+        "roles": [
+          "licensor"
+        ],
+        "url": "https://www.landesforstbetrieb.de/"
+      },
+      {
+        "name": "NW-FVA",
+        "roles": [
+          "host",
+          "licensor",
+          "processor"
+        ],
+        "url": "https://www.nw-fva.de/"
+      }
+    ],
+    "datetime": "2023-07-09T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.56282,
+          51.97336
+        ],
+        [
+          11.56282,
+          52.30410
+        ],
+        [
+          11.90371,
+          52.30410
+        ],
+        [
+          11.90371,
+          51.97336
+        ],
+        [
+          11.56282,
+          51.97336
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Orthos Niedersachsen"
+    },
+    {
+      "rel": "self",
+      "href": "https://dop-stac.opengeodata.lgln.niedersachsen.de/dop20rgbi_32_548_5724_2_ni_2022-03-12/dop20rgbi_32_548_5724_2_ni_2022-03-12.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "rgbi": {
+      "href": "file://X:/st/nwfva/ortho_2023/elbaue_lfb/daten/kacheln/st_flugzeug_2023_elbaue_dop_lfb_676000_5788000.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+  },
+  "bbox": [
+    11.56282,
+    51.97336,
+    11.90371,
+    52.30410
+  ],
+  "stac_extensions": []
+}
