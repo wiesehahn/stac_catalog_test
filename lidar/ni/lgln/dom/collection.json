@@ -1,0 +1,73 @@
+{
+    "id": "dom1_lgln",
+    "description": "Dieser Katalog verweist zu den Lidardaten auf der Cloud Infrastruktur des LGLN.\n\nDas Digitale Oberflächenmodell (DOM) ist ein Folgeprodukt aus den 3D-Messdaten. Es beschreibt die Erdoberfläche samt allen darauf befindlichen, nicht temporären Objekten durch die räumlichen Koordinaten einer repräsentativen Menge von Höhenpunkten zum Erfassungszeitraum. Höheninformationen werden maßstabsunabhängig und datenverarbeitungsgerecht vorgehalten.\n\nAuf Grundlage der seit 2019 niedersachsenweit verfügbaren Laserscan-Punktwolken aus Airborne Laserscaning (ALS), die eine geometrische Auflösung von mindestens 4 Punkten/m² aufweisen, wird ein hochgenaues DOM in 1 x 1 km² Kacheln bereitgestellt. Die Rasterweite beträgt 1m (DOM1) und die Rasterelementposition liegt im Zentrum auf 0,5 m Positionen (= Pixelmitte). Die Höhengenauigkeit des DOM1 beträgt für feste Oberflächen ohne Bewuchs ≤ 30 cm. Diese wurden über eine Delaunay-Triangulation aus der klassifizierten ALS-Punktwolke bestimmt. Das so entstandene Cloud-Optimized GeoTIFF (COG) ist in 32 Bit mit Float-Werten codiert und wurde über das Verfahren LZW komprimiert. Leere Pixel (NoData) enthalten den Wert -9999.",
+    "stac_version": "1.0.0",
+    "links": [
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/collections/dom1/items",
+            "rel": "items",
+            "type": "application/geo+json"
+        },
+        {
+            "href": "../collection.json",
+            "rel": "parent",
+            "type": "application/json"
+        },
+        {
+            "href": "../../../../catalog.json",
+            "rel": "root",
+            "type": "application/json"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/collections/dom1",
+            "rel": "self",
+            "type": "application/json"
+        },
+        {
+            "href": "https://a52a2f3b-83cf-4a37-81a0-7aa3e02db441.stac.lgln.niedersachsen.de/collections/dom1/items",
+            "rel": "items",
+            "type": "application/geo+json"
+        }
+    ],
+    "stac_extensions": [],
+    "title": "Digitales Oberflächenmodell 1m (DOM1)",
+    "type": "Collection",
+    "license": "CC-BY-4.0",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    6.5954374,
+                    51.2869533,
+                    11.6103578,
+                    53.8960576
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2010-05-14T00:00:00Z",
+                    "2022-04-23T00:00:00Z"
+                ]
+            ]
+        }
+    },
+    "keywords": [
+        "DOM",
+        "LGLN"
+    ],
+    "providers": [
+        {
+            "name": "Landesamt für Geoinformation und Landesvermessung Niedersachsen (LGLN)",
+            "roles": [
+                "licensor",
+                "processor",
+                "producer",
+                "host"
+            ],
+            "url": "https://www.lgln.niedersachsen.de/"
+        }
+    ],
+    "summaries": {}
+}

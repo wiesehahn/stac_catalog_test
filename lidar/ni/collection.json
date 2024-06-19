@@ -62,6 +62,12 @@
       "href": "./2024/collection.json",
       "type": "application/json",
       "title": "Lidar Daten Solling 2024"
+    },
+    {
+      "rel": "child",
+      "href": "./lgln/collection.json",
+      "type": "application/json",
+      "title": "Lidardaten LGLN"
     }
   ]
 }
