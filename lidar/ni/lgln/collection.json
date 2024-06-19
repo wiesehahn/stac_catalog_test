@@ -2,8 +2,6 @@
     "id": "lidar_lgln",
     "type": "Collection",
     "stac_extensions": [
-        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
         "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
     ],
     "stac_version": "1.0.0",
@@ -51,7 +49,32 @@
             ]
         }
     },
+    "conformsTo": [
+        "https://api.stacspec.org/v1.0.0/core",
+        "https://api.stacspec.org/v1.0.0/ogcapi-features",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-json",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+        "https://api.stacspec.org/v1.0.0/item-search#query",
+        "https://api.stacspec.org/v1.0.0/item-search#sort",
+        "https://api.stacspec.org/v1.0.0/item-search#fields",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-text",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+        "https://api.stacspec.org/v1.0.0/collections",
+        "https://api.stacspec.org/v1.0.0-rc.3/ogcapi-features/extensions/transaction",
+        "https://api.stacspec.org/v1.0.0/item-search",
+        "http://www.opengis.net/spec/cql2/1.0/conf/basic-cql2",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#context",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter"
+    ],
     "links": [
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/",
+            "rel": "self",
+            "type": "application/json"
+        },
         {
             "rel": "root",
             "href": "../../../catalog.json",
@@ -65,15 +88,45 @@
             "title": "Lidar Daten Niedersachsen"
         },
         {
-            "href": "https://dop.stac.lgln.niedersachsen.de/collections/DOP",
-            "rel": "self",
+            "href": "https://dom.stac.lgln.niedersachsen.de/collections",
+            "rel": "data",
             "type": "application/json"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/conformance",
+            "rel": "conformance",
+            "type": "application/json",
+            "title": "STAC/OGC conformance classes implemented by this server"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/search",
+            "rel": "search",
+            "type": "application/geo+json",
+            "title": "STAC search"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/queryables",
+            "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+            "type": "application/schema+json",
+            "title": "Queryables"
         },
         {
             "rel": "child",
             "href": "./dom/collection.json",
             "type": "application/json",
             "title": "Digitales Oberflächenmodell 1m (DOM1)"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/api",
+            "rel": "service-desc",
+            "type": "application/vnd.oai.openapi+json;version=3.0",
+            "title": "OpenAPI service description"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/api.html",
+            "rel": "service-doc",
+            "type": "text/html",
+            "title": "OpenAPI service documentation"
         }
     ]
 }
