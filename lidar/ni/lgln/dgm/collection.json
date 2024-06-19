@@ -19,6 +19,18 @@
             "type": "application/json"
         },
         {
+            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dgm_wms?",
+            "rel": "wms",
+            "type": "image/png",
+            "title": "WMS NI DGM1",
+            "wms:layers": [
+                "WMS_NI_DGM1"
+            ],
+            "wms:styles": [
+                "default"
+            ]
+        },
+        {
             "href": "https://dgm.stac.lgln.niedersachsen.de/",
             "rel": "self",
             "type": "application/json"
@@ -43,7 +55,8 @@
         }
     ],
     "stac_extensions": [
-        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
+        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json",
+        "https://stac-extensions.github.io/web-map-links/v1.2.0/schema.json"
     ],
     "title": "Digitales Geländemodell 1m (DGM1)",
     "type": "Collection",
