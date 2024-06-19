@@ -48,7 +48,7 @@
     },
     "links": [
         {
-            "href": "https://dom.stac.lgln.niedersachsen.de/",
+            "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
             "rel": "self",
             "type": "application/json"
         },
@@ -69,6 +69,12 @@
             "href": "./dom/collection.json",
             "type": "application/json",
             "title": "Digitales Oberflächenmodell 1m (DOM1)"
+        },
+        {
+            "rel": "child",
+            "href": "./dgm/collection.json",
+            "type": "application/json",
+            "title": "Digitales Geländemodell 1m (DGM1)"
         }
     ]
 }
