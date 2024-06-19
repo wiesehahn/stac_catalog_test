@@ -47,6 +47,17 @@
             "title": "Queryables"
         }
     ],
+    "assets": {
+        "vrt": {
+            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dom_wms?Service=WMS&Request=GetCapabilities",
+            "title": "Web Map Service",
+            "description": "Dieser Web Map Service stellt Daten aus dem Digitalen Oberflächenmodell (DOM1) zur Ansicht bereit.",
+            "roles": [
+                "wms"
+            ],
+            "type": "image/png"
+        }
+    },
     "stac_extensions": [
         "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
     ],
