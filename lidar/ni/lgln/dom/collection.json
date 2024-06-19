@@ -27,9 +27,41 @@
             "href": "https://a52a2f3b-83cf-4a37-81a0-7aa3e02db441.stac.lgln.niedersachsen.de/collections/dom1/items",
             "rel": "items",
             "type": "application/geo+json"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/conformance",
+            "rel": "conformance",
+            "type": "application/json",
+            "title": "STAC/OGC conformance classes implemented by this server"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/search",
+            "rel": "search",
+            "type": "application/geo+json",
+            "title": "STAC search"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/queryables",
+            "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+            "type": "application/schema+json",
+            "title": "Queryables"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/api",
+            "rel": "service-desc",
+            "type": "application/vnd.oai.openapi+json;version=3.0",
+            "title": "OpenAPI service description"
+        },
+        {
+            "href": "https://dom.stac.lgln.niedersachsen.de/api.html",
+            "rel": "service-doc",
+            "type": "text/html",
+            "title": "OpenAPI service documentation"
         }
     ],
-    "stac_extensions": [],
+    "stac_extensions": [
+        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
+    ],
     "title": "Digitales Oberflächenmodell 1m (DOM1)",
     "type": "Collection",
     "license": "CC-BY-4.0",
@@ -54,8 +86,8 @@
         }
     },
     "keywords": [
-        "DOM",
-        "LGLN"
+        "dom",
+        "lgln"
     ],
     "providers": [
         {
@@ -69,5 +101,25 @@
             "url": "https://www.lgln.niedersachsen.de/"
         }
     ],
-    "summaries": {}
+    "summaries": {},
+    "conformsTo": [
+        "https://api.stacspec.org/v1.0.0/core",
+        "https://api.stacspec.org/v1.0.0/ogcapi-features",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-json",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core",
+        "https://api.stacspec.org/v1.0.0/item-search#query",
+        "https://api.stacspec.org/v1.0.0/item-search#sort",
+        "https://api.stacspec.org/v1.0.0/item-search#fields",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/filter",
+        "http://www.opengis.net/spec/cql2/1.0/conf/cql2-text",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30",
+        "https://api.stacspec.org/v1.0.0/collections",
+        "https://api.stacspec.org/v1.0.0-rc.3/ogcapi-features/extensions/transaction",
+        "https://api.stacspec.org/v1.0.0/item-search",
+        "http://www.opengis.net/spec/cql2/1.0/conf/basic-cql2",
+        "https://api.stacspec.org/v1.0.0-rc.2/item-search#context",
+        "http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson",
+        "http://www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter"
+    ]
 }
