@@ -7,7 +7,7 @@
         "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
     ],
     "stac_version": "1.0.0",
-    "description": "Dieser Katalog verweist zu den Orthophotos auf der Cloud Infrastruktur des LGLN. Er ist daher so aktuell wie möglich und kann Daten enthalten welche noch nicht lokal vorliegen. In regelmäßigen Abständen werden die Bilddaten auf die Server der NW-FVA gespiegelt, diese lokalen Dateien können über die anderen Kataloge erreicht werden. \n\nAlle freien Daten des LGLN finden sich auf dem [OpenGeoData.NI](https://ni-lgln-opengeodata.hub.arcgis.com/) Portal.",
+    "description": "Dieser Katalog verweist zu den Orthophotos auf der Cloud Infrastruktur des LGLN. Er ist daher so aktuell wie möglich und kann Daten enthalten welche noch nicht lokal vorliegen. In regelmäßigen Abständen werden die Bilddaten auf die Server der NW-FVA gespiegelt, diese lokalen Dateien können über die anderen Kataloge erreicht werden. Weitere Informationen zu den Orthobildern im [OpenGeoData.NI](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-orthophoto-dop20/about) Portal. \n\nAlle freien Daten des LGLN finden sich auf dem [OpenGeoData.NI](https://ni-lgln-opengeodata.hub.arcgis.com/) Portal.",
     "title": "Daten des LGLN",
     "license": "CC-BY-4.0",
     "keywords": [
@@ -47,6 +47,26 @@
                     null
                 ]
             ]
+        }
+    },
+    "assets": {
+        "wms_aktuell": {
+            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dop_wms?Service=WMS&Request=GetCapabilities",
+            "title": "Web Map Service",
+            "description": "Dieser Web Map Service transportiert die abgeleiteten Rasterbilder der aktuellen Digitalen Orthophotos DOP20 entsprechend dem Produkt- und Qualitätsstandard für Digitale Orthophotos (www.adv-online.de).",
+            "roles": [
+                "wms"
+            ],
+            "type": "image/png"
+        },
+        "wms_historisch": {
+            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/doph_wms?Service=WMS&Request=GetCapabilities",
+            "title": "Web Map Service",
+            "description": "Dieser Web Map Service transportiert die abgeleiteten Rasterbilder der historischen Digitalen Orthophotos DOP20 entsprechend dem Produkt- und Qualitätsstandard für Digitale Orthophotos (www.adv-online.de).",
+            "roles": [
+                "wms"
+            ],
+            "type": "image/png"
         }
     },
     "conformsTo": [

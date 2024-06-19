@@ -1,6 +1,6 @@
 {
     "id": "dgm1_lgln",
-    "description": "Dieser Katalog verweist zu den Lidardaten auf der Cloud Infrastruktur des LGLN.\n\nDas Digitale Geländemodell (DGM) ist ein Folgeprodukt aus den 3D-Messdaten. Es beschreibt die Geländeoberfläche, das Relief der Erde, durch die räumlichen Koordinaten einer repräsentativen Menge von Geländepunkten zum Erfassungszeitraum. Höheninformationen werden maßstabsunabhängig und datenverarbeitungsgerecht vorgehalten.\n\nAuf Grundlage der seit 2019 niedersachsenweit verfügbaren Laserscan-Punktwolken aus Airborne Laserscaning (ALS), die eine geometrische Auflösung von mindestens 4 Punkten/m² aufweisen, wird ein hochgenaues DGM in 1 x 1 km² Kacheln bereitgestellt. Die Rasterweite beträgt 1m (DGM1) und die Rasterelementposition liegt im Zentrum auf 0,5 m Positionen (= Pixelmitte). Die Höhengenauigkeit des DGM1 beträgt für flaches bis wenig geneigtes, offenes Gelände ≤15 cm und bei stark geneigtem Gelände mit dichter Vegetation ≤ 30 cm. Diese wurden über eine Delaunay-Triangulation aus der klassifizierten ALS-Punktwolke bestimmt. Das so entstandene Cloud-Optimized GeoTIFF (COG) ist in 32 Bit mit Float-Werten codiert und wurde über das Verfahren LZW komprimiert. Leere Pixel (NoData) enthalten den Wert -9999.",
+    "description": "Dieser Katalog verweist zu den Lidardaten auf der Cloud Infrastruktur des LGLN.\n\nDas Digitale Geländemodell (DGM) ist ein Folgeprodukt aus den 3D-Messdaten. Es beschreibt die Geländeoberfläche, das Relief der Erde, durch die räumlichen Koordinaten einer repräsentativen Menge von Geländepunkten zum Erfassungszeitraum. Höheninformationen werden maßstabsunabhängig und datenverarbeitungsgerecht vorgehalten.\n\nAuf Grundlage der seit 2019 niedersachsenweit verfügbaren Laserscan-Punktwolken aus Airborne Laserscaning (ALS), die eine geometrische Auflösung von mindestens 4 Punkten/m² aufweisen, wird ein hochgenaues DGM in 1 x 1 km² Kacheln bereitgestellt. Die Rasterweite beträgt 1m (DGM1) und die Rasterelementposition liegt im Zentrum auf 0,5 m Positionen (= Pixelmitte). Die Höhengenauigkeit des DGM1 beträgt für flaches bis wenig geneigtes, offenes Gelände ≤15 cm und bei stark geneigtem Gelände mit dichter Vegetation ≤ 30 cm. Diese wurden über eine Delaunay-Triangulation aus der klassifizierten ALS-Punktwolke bestimmt. Das so entstandene Cloud-Optimized GeoTIFF (COG) ist in 32 Bit mit Float-Werten codiert und wurde über das Verfahren LZW komprimiert. Leere Pixel (NoData) enthalten den Wert -9999. \n\nWeitere Informationen zu den Daten im [OpenGeoData.NI](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-gel%C3%A4ndemodell-dgm1/about) Portal.",
     "stac_version": "1.0.0",
     "links": [
         {
@@ -17,18 +17,6 @@
             "href": "../../../../catalog.json",
             "rel": "root",
             "type": "application/json"
-        },
-        {
-            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dgm_wms?",
-            "rel": "wms",
-            "type": "image/png",
-            "title": "WMS NI DGM1",
-            "wms:layers": [
-                "WMS_NI_DGM1"
-            ],
-            "wms:styles": [
-                "default"
-            ]
         },
         {
             "href": "https://dgm.stac.lgln.niedersachsen.de/",
@@ -54,9 +42,19 @@
             "title": "Queryables"
         }
     ],
+    "assets": {
+        "wms": {
+            "href": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dgm_wms?Service=WMS&Request=GetCapabilities",
+            "title": "Web Map Service",
+            "description": "Dieser Web Map Service stellt Daten aus dem Digitalen Geländemodells (DGM1) zur Ansicht bereit.",
+            "roles": [
+                "wms"
+            ],
+            "type": "image/png"
+        }
+    },
     "stac_extensions": [
-        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json",
-        "https://stac-extensions.github.io/web-map-links/v1.2.0/schema.json"
+        "https://raw.githubusercontent.com/stac-api-extensions/context/v1.0.0-rc.2/json-schema/schema.json"
     ],
     "title": "Digitales Geländemodell 1m (DGM1)",
     "type": "Collection",
