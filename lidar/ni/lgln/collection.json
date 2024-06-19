@@ -3,7 +3,7 @@
     "type": "Collection",
     "stac_version": "1.0.0",
     "description": "Das LGLN stellt seit 2024 das Digitale Geländemodell (1m) und das digitale Oberflächenmodell (1m) als Open Data zu Verfügung. \n\nDiese Kataloge verweisen zu den Daten auf der Cloud Infrastruktur des LGLN. Sie sind daher so aktuell wie möglich und können Daten enthalten welche noch nicht lokal vorliegen. In regelmäßigen Abständen werden die Daten auf die Server der NW-FVA gespiegelt, diese lokalen Dateien können über die anderen Kataloge erreicht werden. \nPunktwolken der Lidardaten stehen nicht als Open Data zur Verfügung. \n\nAlle freien Daten des LGLN finden sich auf dem [OpenGeoData.NI](https://ni-lgln-opengeodata.hub.arcgis.com/) Portal.",
-    "title": "Lidardaten LGLN",
+    "title": "Daten des LGLN",
     "license": "CC-BY-4.0",
     "keywords": [
         "ALS",

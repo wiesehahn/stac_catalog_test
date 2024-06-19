@@ -63,7 +63,7 @@
       "rel": "child",
       "href": "./lgln/collection.json",
       "type": "application/json",
-      "title": "Orthos LGLN"
+      "title": "Daten des LGLN"
     }
   ]
 }

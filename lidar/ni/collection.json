@@ -67,7 +67,7 @@
       "rel": "child",
       "href": "./lgln/collection.json",
       "type": "application/json",
-      "title": "Lidardaten LGLN"
+      "title": "Daten des LGLN"
     }
   ]
 }
