@@ -7,7 +7,8 @@
   "keywords": [
     "ALS",
     "Lidar",
-    "Hessen"
+    "Hessen",
+    "Flugzeug"
   ],
   "extent": {
     "spatial": {
@@ -23,7 +24,7 @@
     "temporal": {
       "interval": [
         [
-          "2009-01-01T00:00:00Z",
+          "2011-01-01T00:00:00Z",
           null
         ]
       ]
@@ -40,6 +41,11 @@
       "href": "../collection.json",
       "type": "application/json",
       "title": "Lidar Daten"
+    },    {
+      "rel": "child",
+      "href": "./2011/collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Hessen 2011"
     },
     {
       "rel": "self",

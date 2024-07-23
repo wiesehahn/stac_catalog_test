@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    [
+      "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+    ]
+  ],
+  "id": "3dm_32_499_5628_1_he_2011",
+  "geometry": [
+    {
+      "coordinates": [
+        [
+          [
+            8.985808601,
+            50.803735508,
+            202.974
+          ],
+          [
+            8.999999986,
+            50.803736371,
+            202.974
+          ],
+          [
+            8.999999986,
+            50.812729159,
+            287.091
+          ],
+          [
+            8.985805876,
+            50.812728296,
+            287.091
+          ],
+          [
+            8.985808601,
+            50.803735508,
+            202.974
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    }
+  ],
+  "bbox": [
+    [
+      8.985805876,
+      50.803735508,
+      202.974,
+      8.999999986,
+      50.812729159,
+      287.091
+    ]
+  ],
+  "properties": [
+    {
+      "datetime": "2011-09-16T00:00:00Z",
+      "pc:count": 46546772,
+      "pc:type": "lidar",
+      "index:indexed": true,
+      "proj:bbox": [
+        499000.0,
+        5628000.0,
+        499999.999,
+        5628999.999
+      ],
+      "proj:wkt2": "PROJCRS[\"ETRS89 / UTM zone 32N\",BASEGEOGCRS[\"ETRS89\",ENSEMBLE[\"European Terrestrial Reference System 1989 ensemble\",MEMBER[\"European Terrestrial Reference Frame 1989\"],MEMBER[\"European Terrestrial Reference Frame 1990\"],MEMBER[\"European Terrestrial Reference Frame 1991\"],MEMBER[\"European Terrestrial Reference Frame 1992\"],MEMBER[\"European Terrestrial Reference Frame 1993\"],MEMBER[\"European Terrestrial Reference Frame 1994\"],MEMBER[\"European Terrestrial Reference Frame 1996\"],MEMBER[\"European Terrestrial Reference Frame 1997\"],MEMBER[\"European Terrestrial Reference Frame 2000\"],MEMBER[\"European Terrestrial Reference Frame 2005\"],MEMBER[\"European Terrestrial Reference Frame 2014\"],ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[0.1]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4258]],CONVERSION[\"UTM zone 32N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",9,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"Europe between 6°E and 12°E: Austria; Belgium; Denmark - onshore and offshore; Germany - onshore and offshore; Norway including - onshore and offshore; Spain - offshore.\"],BBOX[38.76,6,84.33,12.01]],ID[\"EPSG\",25832]]",
+      "proj:epsg": 25832,
+      "pc:density": 26
+    }
+  ],
+  "links": [
+    [
+      {
+        "rel": "collection",
+        "href": "../collection.json",
+        "type": "application/json",
+        "title": "Lidar Daten Hessen 2011"
+      },
+      {
+        "rel": "root",
+        "href": "../../../../catalog.json",
+        "type": "application/json",
+        "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+      },
+      {
+        "rel": "parent",
+        "href": "../collection.json",
+        "type": "application/json",
+        "title": "Lidar Daten Hessen 2011"
+      }
+    ]
+  ],
+  "assets": [
+    {
+      "pointcloud": {
+        "href": "file//L:/lidar/ALS/he/2011/3dm_32_499_5628_1_he_2011.laz",
+        "roles": "data",
+        "type": "application/vnd.laz"
+      }
+    }
+  ],
+  "collection": "lidar_he_2011"
+}

@@ -1,0 +1,296 @@
+{
+  "id": "lidar_he_2011",
+  "type": "Collection",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "description": "Federal ALS data collected in Hessen 2011",
+  "title": "Lidar Daten Hessen 2011",
+  "keywords": [
+    "ALS",
+    "Lidar",
+    "Hessen",
+    "Flugzeug",
+    "HVBG",
+    "Landesbefliegung"
+  ],
+  "providers": [
+    {
+      "name": "Hessische Verwaltung für Bodenmanagement und Geoinformation",
+      "roles": [
+        "host",
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://hvbg.hessen.de/"
+    },
+    {
+      "name": "NW-FVA",
+      "roles": [
+        "host",
+        "processor"
+      ],
+      "url": "https://www.nw-fva.de/"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.023086983,
+          49.650789336,
+          8.999999986,
+          50.821721943
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-09-14T00:00:00Z",
+          "2011-09-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "dl-de/by-2-0",
+  "summaries": {
+    "platform": "Airplane",
+    "proj:epsg": 25832,
+    "pc:type": "lidar",
+    "pc:density": 25
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten Hessen"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/radiantearth/stac-spec/v1.0.0/examples/collection.json",
+      "type": "application/json",
+      "title": null
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_430_5539_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_430_5539_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_431_5539_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_431_5539_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_432_5540_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_432_5540_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_434_5539_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_434_5539_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_443_5543_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_443_5543_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_445_5543_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_445_5543_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_453_5501_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_453_5501_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_453_5502_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_453_5502_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_453_5503_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_453_5503_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_453_5504_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_453_5504_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_454_5500_1_rp_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_454_5500_1_rp_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_454_5501_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_454_5501_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_454_5502_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_454_5502_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_454_5503_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_454_5503_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_454_5504_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_454_5504_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_497_5573_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_497_5573_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5605_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5605_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5607_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5607_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5609_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5609_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5610_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5610_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5611_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5611_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5612_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5612_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5613_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5613_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5614_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5614_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5615_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5615_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5616_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5616_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5617_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5617_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5621_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5621_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5622_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5622_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5624_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5624_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5625_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5625_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5626_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5626_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5627_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5627_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5628_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5628_1_he_2011"
+    },
+    {
+      "rel": "item",
+      "href": "./pointcloud/3dm_32_499_5629_1_he_2011.json",
+      "type": "application/json",
+      "title": "3dm_32_499_5629_1_he_2011"
+    }
+  ]
+}
