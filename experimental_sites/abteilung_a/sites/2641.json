@@ -1,0 +1,90 @@
+ {
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "2641",
+    "geometry": {
+      "coordinates": [
+        [
+          [
+            9.999755570658635,
+            51.517394137289955
+          ],
+          [
+            9.999292673388567,
+            51.516574239073265
+          ],
+          [
+            10.0017499626249,
+            51.516086704008444
+          ],
+          [
+            10.002106040309542,
+            51.51664072855897
+          ],
+          [
+            10.00085952672569,
+            51.51690662873173
+          ],
+          [
+            10.00082386917947,
+            51.51750492375854
+          ],
+          [
+            9.999755570658635,
+            51.517394137289955
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "bbox": [
+      9.999755570658635,
+      51.516,
+      10.0017499626249,
+      51.517
+    ],
+    "properties": {
+      "datetime": "2023-09-05T00:00:00Z"
+    },
+    "links": [
+      {
+        "rel": "collection",
+        "href": "../collection.json",
+        "type": "application/json",
+        "title": "Versuchsflächen - Abteilung A"
+      },
+      {
+        "rel": "root",
+        "href": "../../../../catalog.json",
+        "type": "application/json",
+        "title": "Geodatenkatalog der NW-FVA (Beispiel)"
+      },
+      {
+        "rel": "parent",
+        "href": "../collection.json",
+        "type": "application/json",
+        "title": "Versuchsflächen - Abteilung A"
+      }
+    ],
+    "assets": {
+      "Aufnahmedaten": {
+        "href": "file//./../2641.zip",
+        "type": "application/x-zip",
+        "title": "Aufnahmedaten Versuchsfläche",
+        "description": "Inventurdaten der Versuchsfläche",
+        "roles": [
+          "data"
+        ]
+      },
+      "Geodaten": {
+        "href": "file//./../2641.gpkg",
+        "type": "application/geopackage+sqlite3",
+        "title": "Geodaten Versuchsfläche",
+        "description": "Geodaten der Versuchsfläche",
+        "roles": [
+          "data"
+        ]
+      }
+    },
+    "collection": "experimental_sites_a"
+  }

@@ -23,6 +23,12 @@
       "title": "Lidar-Daten"
     },
     {
+      "rel": "child",
+      "href": "./experimental_sites/collection.json",
+      "type": "application/json",
+      "title": "Versuchsflächen"
+    },
+    {
       "rel": "self",
       "href": "https://raw.githubusercontent.com/user/path/catalog.json",
       "type": "application/json"
