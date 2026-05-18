@@ -108,12 +108,12 @@
       "links": [],
       "assets": {
         "data": {
-          "href": "./pointcloud/3dm_49_273_5274_1_de_2018.laz",
+          "href": "../pointcloud/3dm_49_273_5274_1_de_2018.laz",
           "roles": "data",
           "created": "2026-05-18T14:32:51Z"
         },
         "overview": {
-          "href": "./overviews/3dm_49_273_5274_1_de_2018.webp",
+          "href": "../overviews/3dm_49_273_5274_1_de_2018.webp",
           "type": "image/webp",
           "roles": "overview"
         }
