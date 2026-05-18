@@ -1,0 +1,57 @@
+{
+  "id": "lidar_external",
+  "type": "Collection",
+  "title": "Externe Lidar Daten",
+  "stac_version": "1.0.0",
+  "description": "Externe ALS Daten",
+  "keywords": [
+    "ALS",
+    "Lidar"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.985646598,
+          47.582999273,
+          788.993,
+          5.989588481,
+          47.585666175,
+          829.758
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-09-07T00:00:00Z",
+          "2018-09-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lidar Daten"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/wiesehahn/stac_catalog_test/refs/heads/main/lidar/external/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./metadata/3dm_49_273_5274_1_de_2018.json",
+      "type": "application/json",
+      "title": "3dm_49_273_5274_1_de_2018"
+    }
+  ]
+}

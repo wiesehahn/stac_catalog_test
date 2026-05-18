@@ -30,7 +30,7 @@
     },
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "href": "https://raw.githubusercontent.com/wiesehahn/stac_catalog_test/refs/heads/main/catalog.json",
       "type": "application/json"
     }
   ]

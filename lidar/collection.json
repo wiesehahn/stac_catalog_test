@@ -55,8 +55,14 @@
       "title": "Lidar Daten Hessen"
     },
     {
+      "rel": "child",
+      "href": "./external/collection.json",
+      "type": "application/json",
+      "title": "Externe Lidar Daten"
+    },
+    {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/user/path/catalog.json",
+      "href": "https://raw.githubusercontent.com/wiesehahn/stac_catalog_test/refs/heads/main/lidar/collection.json",
       "type": "application/json"
     }
   ]
