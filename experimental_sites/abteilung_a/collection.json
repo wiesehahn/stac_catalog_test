@@ -12,7 +12,7 @@
   ],
   "providers": [
     {
-      "name": "NW-FVA",
+      "name": "NW-FVA - Abteilung A",
       "roles": [
         "host",
         "licensor",
@@ -36,11 +36,36 @@
       "interval": [
         [
           "1890-01-01T00:00:00Z",
-          null
+          "2024-11-25T00:00:00Z"
         ]
       ]
     }
   },
+  "table:columns": [
+    {
+      "name": "geometry",
+      "description": "The observation location.",
+      "type": "binary"
+    },
+    {
+      "name": "id",
+      "description": "The numerical identifier",
+      "type": "int64"
+    },
+    {
+      "name": "tree",
+      "description": "Tree identifier",
+      "type": "int64"
+    },
+    {
+      "name": "dbh",
+      "description": "Diameter at Breast Height",
+      "type": "float64"
+    }
+  ],
+  "table:primary_geometry": "geometry",
+  "created": "2024-11-20T00:00:00Z",
+  "updated": "2024-11-25T00:00:00Z",
   "links": [
     {
       "rel": "root",
@@ -54,6 +79,12 @@
       "title": "Versuchsflächen"
     },
     {
+      "title": "E.g. link to some License",
+      "href": "https://www.govdata.de/dl-de/by-2-0",
+      "type": "text/html",
+      "rel": "license"
+    },
+    {
       "rel": "item",
       "href": "./sites/2641.json",
       "type": "application/json",
@@ -64,5 +95,8 @@
       "href": "https://raw.githubusercontent.com/user/path/catalog.json",
       "type": "application/json"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ]
 }
