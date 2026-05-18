@@ -1,9 +1,13 @@
 {
   "id": "lidar_external",
   "type": "Collection",
-  "title": "Externe Lidar Daten",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+  ],
   "stac_version": "1.0.0",
-  "description": "Externe ALS Daten",
+  "description": "A simple sample collection testing capabilities using data from ALS data created via managelidar::raw_to_processed()",
+  "title": "Externe Lidar Daten",
   "keywords": [
     "ALS",
     "Lidar"
@@ -14,10 +18,8 @@
         [
           5.985646598,
           47.582999273,
-          788.993,
           5.989588481,
-          47.585666175,
-          829.758
+          47.585666175
         ]
       ]
     },
@@ -30,11 +32,13 @@
       ]
     }
   },
+  "license": "proprietary",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": "Geodatenkatalog der NW-FVA (Beispiel)"
     },
     {
       "rel": "parent",
@@ -45,7 +49,8 @@
     {
       "rel": "self",
       "href": "https://raw.githubusercontent.com/wiesehahn/stac_catalog_test/refs/heads/main/lidar/external/collection.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": null
     },
     {
       "rel": "item",

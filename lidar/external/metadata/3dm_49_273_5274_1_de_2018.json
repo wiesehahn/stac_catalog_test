@@ -1,6 +1,4 @@
-{
-  "type": "FeatureCollection",
-  "features": [
+
     {
       "type": "Feature",
       "stac_version": "1.0.0",
@@ -119,7 +117,6 @@
           "type": "image/webp",
           "roles": "overview"
         }
-      }
+      },
+    "collection": "lidar_external"
     }
-  ]
-}
